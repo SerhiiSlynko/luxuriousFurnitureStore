@@ -1,0 +1,184 @@
+.shop{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+    // justify-content: space-between;
+
+    @media screen and (max-width: $bp-tablet-xxl) {
+        width: 103%;
+    }
+    @media screen and (max-width: $bp-tablet-xxls) {
+        width: 107%;
+    }
+    @media screen and (max-width: $bp-tablet) {
+        width: 108%;
+    }
+  
+
+
+    &__list{
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       position: relative;
+       gap: 40px;
+       padding: 55px 145px 50px 145px;
+
+    @media screen and (max-width: $bp-tablet) {
+       gap: 32px;
+       padding: 30px 50px 50px 50px;
+    }
+    @media screen and (max-width: $bp-tablet-g) {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 30px 180px 50px 160px;
+    }
+    
+       
+    }
+    &__titprice{
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+
+        @media screen and (max-width: $bp-tablet) {
+            gap: 32px;
+        }
+    }
+    
+
+
+    &__img{
+        width: 100%;
+        height: 172px;
+        object-fit: cover;
+    }
+
+    &__item{
+        width: 267px;
+        height: 338px;
+        display: flex;
+        flex-direction: column;
+        width: calc(25% - 40px * 3 / 4);
+        background-color: $bgshop;
+        box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.05);
+
+        @media screen and (max-width: $bp-tablet-g) {
+            flex-direction: column;
+            width: 267px;
+        }
+      
+    }
+
+    &__content{
+        padding: 10px;
+    }
+
+    &__title{
+        font-family: $fonts-roboto-regular;
+        font-size: 20px;
+        line-height: 128%;
+        font-weight: 400;
+        align-items: flex-start;
+        color: $grey;
+        padding-bottom: 10px;
+
+        @media screen and (max-width: $bp-tablet-xx) {
+            font-size: 19px;
+            padding-bottom: 17px;
+        }
+        @media screen and (max-width: $bp-tablet-skk) {
+            font-size: 18px;
+            padding-bottom: 15px;
+        }
+        @media screen and (max-width: $bp-tablet-sm) {
+            font-size: 17px;
+            padding-bottom: 10px;
+        }
+        @media screen and (max-width: $bp-tablet-c) {
+            font-size: 14px;
+            padding-bottom: 0px;
+        }
+        @media screen and (max-width: $bp-tablet-t) {
+            font-size: 13px;
+        }
+        @media screen and (max-width: $bp-tablet-k) {
+            font-size: 12px;
+        }
+        @media screen and (max-width: $bp-tablet-f) {
+            font-size: 11px;
+        } 
+        @media screen and (max-width: $bp-tablet-g) {
+            font-size: 10px;
+        }
+    }
+    &__price{
+        
+        font-family: $fonts-roboto-regular;
+        font-size: 20px;
+        line-height: 128%;
+        font-weight: 400;
+        color: $grey;
+        padding-bottom: 10px;
+
+        @media screen and (max-width: $bp-tablet-xx) {
+            font-size: 15px;
+        }
+        @media screen and (max-width: $bp-tablet-c) {
+            font-size: 13px;
+        }
+        @media screen and (max-width: $bp-tablet-t) {
+            font-size: 12px;
+        }
+        @media screen and (max-width: $bp-tablet-k) {
+            font-size: 11px;
+        }
+        @media screen and (max-width: $bp-tablet-f) {
+            font-size: 10px;
+        } 
+        @media screen and (max-width: $bp-tablet-g) {
+            font-size: 9px;
+        }
+    }
+    &__text{
+        font-family: $fonts-roboto-light;
+        font-size: 16px;
+        line-height: 128%;
+        font-weight: 300;
+        align-items: flex-start;
+        color: $grey2;
+        padding-bottom: 13px;
+
+        @media screen and (max-width: $bp-tablet-vs) {
+            font-size: 15px;
+            line-height: 0%;
+        }
+        @media screen and (max-width: $bp-tablet-sm) {
+            font-size: 14px;
+        }
+        @media screen and (max-width: $bp-tablet-c) {
+            font-size: 12px;
+        }
+        @media screen and (max-width: $bp-tablet-t) {
+            font-size: 10px;
+        }
+        @media screen and (max-width: $bp-tablet-k) {
+            font-size: 9px;
+        }
+        @media screen and (max-width: $bp-tablet-f) {
+            font-size: 8px;
+        }
+        @media screen and (max-width: $bp-tablet-g) {
+            font-size: 7px;
+        }
+
+    
+    }
+
+
+
+
+
+}

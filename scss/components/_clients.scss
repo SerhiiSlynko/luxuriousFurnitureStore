@@ -1,0 +1,47 @@
+.clients{
+
+   &__container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+   }
+
+   &__title{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 30px;
+    font-family: $fonts-roboto-regular;
+    line-height: 100%;
+    vertical-align: top;
+    padding: 175px 0px 5px 140px;
+    color: $black;
+
+    @media screen and (max-width: $bp-tablet-s) {
+        padding: 280px 0px 5px 140px;
+    }
+    @media screen and (max-width: $bp-tablet-t) {
+        font-size: 27px;
+    }
+    @media screen and (max-width: $bp-tablet-sm) {
+        padding: 100px 0px 5px 140px;
+    }
+    
+   }
+   &__text{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 20px;
+    line-height: 173%;
+    font-family: $fonts-roboto-regular;
+    color: $grey;
+    padding: 15px 0px 45px 140px;
+
+
+    @media screen and (max-width: $bp-tablet-t) {
+        font-size: 17px;
+    }
+}
+
+}

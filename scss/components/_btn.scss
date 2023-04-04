@@ -1,0 +1,204 @@
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid $grey;
+    color: $grey;
+    border-radius: 5px;
+    background-color: $grey;
+    color: $white;
+    font-size: 18px;
+    font-family: $fonts-roboto-regular;
+    line-height: 22px;
+    width: 140px;
+    height: 47px;
+    text-transform: unset;
+    text-align: center;
+    
+}
+
+.btn--item{
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    @media screen and (max-width: $bp-tablet-xx) {
+        margin-top: 20px;
+    }
+    @media screen and (max-width: $bp-tablet) {
+        width: 93px;
+        height: 34px;
+    }
+    @media screen and (max-width: $bp-tablet-c) {
+        width: 83px;
+        height: 28px;
+        font-size: 13px;
+    }
+    @media screen and (max-width: $bp-tablet-t) {
+        width: 78px;
+        height: 25px;
+        font-size: 12px;
+    }
+    @media screen and (max-width: $bp-tablet-k) {
+        width: 68px;
+        height: 20px;
+        font-size: 11px;
+    }
+    @media screen and (max-width: $bp-tablet-f) {
+        width: 58px;
+        height: 15px;
+        font-size: 10px;
+    }
+    
+}
+.btn--nnn{
+    position: absolute;
+    top: 250px;
+    left: 430px;
+    z-index: 2;
+    @media screen and (max-width: $bp-tablet-s) {
+        top: 190px;
+        width: 115px;
+        height: 40px;
+    }
+    @media screen and (max-width: $bp-tablet-sm) {
+        top: 150px;
+        left: 308px;
+    }
+    @media screen and (max-width: $bp-tablet-c) {
+        top: 127px;
+        left: 252px;
+        width: 105px;
+        height: 36px;
+        font-size: 17px;
+    }
+    @media screen and (max-width: $bp-tablet-t) {
+        top: 109px;
+        left: 214px;
+        width: 90px;
+        height: 34px;
+        font-size: 15px;
+    }
+    @media screen and (max-width: $bp-tablet-k) {
+        top: 94px;
+        left: 179px;
+        width: 66px;
+        height: 21px;
+        font-size: 11px;
+    }
+    @media screen and (max-width: $bp-tablet-f) {
+        top: 74px;
+        left: 139px;
+        width: 62px;
+        height: 21px;
+        font-size: 8px;
+    }
+    @media screen and (max-width: $bp-tablet-gs) {
+        top: 68px;
+        left: 123px;
+        width: 48px;
+        height: 16px;
+        font-size: 4px;
+    }
+}
+.btn--view{
+    position: absolute;
+    top: 3600px;
+    left: 660px;
+    z-index: 2;
+    @media screen and (max-width: $bp-tablet-xx) {
+        top: 3860px;
+        left: 556px;
+    }
+    @media screen and (max-width: $bp-tablet) {
+        top: 3745px;
+        
+    }
+    @media screen and (max-width: $bp-tablet-vv) {
+        top: 3800px;
+        
+    }
+    @media screen and (max-width: $bp-tablet-vs) {
+        top: 3685px;
+        left: 493px;
+        
+    }
+    @media screen and (max-width: $bp-tablet-skk) {
+        top: 3960px;
+        
+    }
+    @media screen and (max-width: $bp-tablet-sm) {
+        top: 3750px;
+        left: 455px;
+        
+    }
+    @media screen and (max-width: $bp-tablet-c) {
+        top: 3664px;
+        left: 405px;
+        
+    }
+    @media screen and (max-width: $bp-tablet-t) {
+        top: 3622px;
+        left: 343px;
+        width: 107px;
+        height: 37px;
+        font-size: 16px;
+        
+    }
+    @media screen and (max-width: $bp-tablet-k) {
+        top: 3559px;
+        left: 295px;
+        
+    }
+    @media screen and (max-width: $bp-tablet-f) {
+        top: 3440px;
+        left: 254px;
+        
+    }
+    @media screen and (max-width: $bp-tablet-g) {
+        top: 5665px;
+        left: 240px;
+        
+    }
+
+}
+.btn--about{
+    margin-left: 25px;
+
+    @media screen and (max-width: $bp-tablet-sm) {
+        width: 124px;
+        height: 40px;
+        font-size: 15px;
+    }
+    @media screen and (max-width: $bp-tablet-t) {
+        width: 114px;
+        height: 38px;
+        font-size: 13px;
+        margin-top: 110px;
+    }
+    @media screen and (max-width: $bp-tablet-k) {
+        width: 114px;
+        height: 38px;
+        font-size: 13px;
+        margin-top: 110px;
+    }
+}
+
+.btn--small{
+    width: 120px;
+    height: 47px;
+    margin-top: 14px;
+    margin-right: 90px;
+
+    @media screen and (max-width: $bp-tablet-xx) {
+        margin-top: 14px;
+        margin-right: 130px;
+    }
+
+    @media screen and (max-width: $bp-tablet-skk) {
+        width: 97px;
+        height: 37px;
+        font-size: 16px;
+    }
+
+  
+}

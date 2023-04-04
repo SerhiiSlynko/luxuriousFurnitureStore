@@ -1,0 +1,71 @@
+.cards{
+    display: flex;
+    flex-direction: row;
+    padding: 50px 0px 120px 122px;
+
+    @media screen and (max-width: $bp-tablet) {
+        padding: 50px 0px 120px 10px;
+    }
+    @media screen and (max-width: $bp-tablet-s) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 90px;
+    }
+    @media screen and (max-width: $bp-tablet-gr) {
+        padding: 0px 0px 0px 100px;
+        gap: 100px;
+    }
+    
+
+    &__one{
+        display: flex;
+        flex-direction: row;
+        width: 564px;
+        height: 264px;
+        background-color:   $bgshop;
+    }
+
+    &__content{
+        display: flex;
+        flex-direction: column;
+        
+       
+    }
+
+    &__img{
+        width: 224px;
+        height: 224px;
+        padding-left: 35px;
+    }
+
+    &__title{
+        font-family: $fonts-roboto-regular;
+        font-size: 20px;
+        line-height: 128%;
+        font-weight: 400;
+        align-items: flex-start;
+        color: $grey;
+        padding-bottom: 10px;
+    }
+    &__text{
+        width: 345px;
+        height: 100px;
+        font-family: $fonts-roboto-light;
+        font-size: 16px;
+        line-height: 128%;
+        font-weight: 300;
+        align-items: flex-start;
+        color: $grey2;
+        padding-bottom: 13px
+    }
+    &__data{
+        font-family: $fonts-roboto-light;
+        font-size: 16px;
+        line-height: 128%;
+        font-weight: 300;
+        align-items: flex-start;
+        color: $grey2;
+        padding-bottom: 13px
+    }
+}

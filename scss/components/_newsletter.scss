@@ -1,0 +1,160 @@
+.newsletter{
+    display: flex;
+
+
+
+     &__form{
+        // position: relative;
+        width: 300px;
+        margin: 0 auto;
+      
+      }
+      &__form-input{
+        width: 170px;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        outline: none;
+        background: $bgsearch;
+        color: $colorsearch;
+        margin: 0px 15px 32px 0px;
+        padding: 12px 15px 12px 12px;
+
+            @media screen and (max-width: $bp-tablet-s) {
+             width: 137px;
+             height: 35px;
+            }
+            @media screen and (max-width: $bp-tablet-t) {
+              width: 100px;
+              height: 26px;
+            }
+            @media screen and (max-width: $bp-tablet-k) {
+              width: 137px;
+              height: 35px;
+            }
+      }
+      &__form-input2{
+        width: 170px;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 5px;
+        outline: none;
+        background: $bgsearch;
+        color: $colorsearch;
+        margin: 0px 15px 32px 0px;
+        padding: 12px 15px 12px 12px;
+
+        @media screen and (max-width: $bp-tablet-s) {
+          width: 137px;
+          height: 35px;
+        }
+        @media screen and (max-width: $bp-tablet-t) {
+          width: 103px;
+          height: 25px;
+        }
+        @media screen and (max-width: $bp-tablet-k) {
+          width: 137px;
+          height: 35px;
+        }
+      }
+      &__form-button{
+        width: 56px;
+        height: 40px;
+        border: none;
+        background: $bgsearch;
+        color: $colorsearch;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+        padding: 11px;
+
+        @media screen and (max-width: $bp-tablet-s) {
+          width: 44px;
+          height: 34px;
+          padding: 7px;
+          margin-left: -9px;
+        }
+        @media screen and (max-width: $bp-tablet-t) {
+          width: 31px;
+          height: 25px;
+          padding: 5px;
+          margin-left: -10px;
+        }
+        @media screen and (max-width: $bp-tablet-k) {
+          width: 44px;
+          height: 34px;
+          padding: 7px;
+          margin-left: -9px;
+        }
+      }
+
+
+      &__title{
+        font-family: $fonts-roboto-medium;
+        font-size: 20px;
+        line-height: 100%;
+        font-weight: 500;
+        color: $black;
+        padding-bottom: 20px;
+
+        @media screen and (max-width: $bp-tablet-t) {
+          font-size: 15px;
+        }
+        @media screen and (max-width: $bp-tablet-k) {
+          font-size: 20px;
+        }
+      }
+    
+      &__form-input{
+        font-family: $fonts-roboto-light;
+        font-size: 14px;
+        line-height: 100%;
+        font-weight: 300;
+        color: $black;
+        @media screen and (max-width: $bp-tablet-s) {
+          font-size: 12px;
+        }
+        @media screen and (max-width: $bp-tablet-t) {
+          font-size: 8px;
+        }
+        @media screen and (max-width: $bp-tablet-k) {
+          font-size: 12px;
+        }
+      }
+      
+      &__form-input2{
+        font-family: $fonts-roboto-bold;
+        font-size: 18px;
+        line-height: 100%;
+        font-weight: 700;
+        color: $black;
+        @media screen and (max-width: $bp-tablet-s) {
+          font-size: 12px;
+        }
+        @media screen and (max-width: $bp-tablet-t) {
+          font-size: 9px;
+        }
+        @media screen and (max-width: $bp-tablet-k) {
+          font-size: 12px;
+        }
+
+      }
+
+      &__form-button{
+        font-family: $fonts-roboto-regular;
+        font-size: 14px;
+        line-height: 100%;
+        font-weight: 400;
+        color: $black;
+        @media screen and (max-width: $bp-tablet-s) {
+          font-size: 12px;
+        }
+        @media screen and (max-width: $bp-tablet-t) {
+          font-size: 8px;
+        }
+        @media screen and (max-width: $bp-tablet-k) {
+          font-size: 12px;
+        }
+      }
+    
+    
+}

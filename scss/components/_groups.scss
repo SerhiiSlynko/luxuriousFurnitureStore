@@ -1,0 +1,21 @@
+.groups{
+    display: flex;
+
+
+    &__link{
+        font-family: $fonts-roboto-regular;
+        padding: 20px;
+        font-size: 18px;
+        line-height: 22px;
+        color: $black;
+        margin-right: 10px;
+    }
+
+    
+    &__link-footer{
+        font-family:$fonts-roboto-regular;
+        font-size: 14px;
+        line-height: 140%;
+        color: $black;
+    }
+}

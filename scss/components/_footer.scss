@@ -1,0 +1,208 @@
+.footer{
+   width: 100%;
+   height: 346px;
+   display: flex;
+   flex-direction: row;
+   background-color: $bgFooter;
+   padding: 80px 140px 80px 140px;
+
+        @media screen and (max-width: $bp-tablet-xx) {
+            padding: 74px 0px 64px 100px;
+        }
+
+        @media screen and (max-width: $bp-tablet-sm) {
+            padding: 74px 0px 64px 25px;
+        }
+        @media screen and (max-width: $bp-tablet-c) {
+            padding: 74px 0px 64px 10px;
+        }
+        @media screen and (max-width: $bp-tablet-t) {
+            width: 108%;
+        }
+        @media screen and (max-width: $bp-tablet-k) {
+            height: 870px;
+        }
+        @media screen and (max-width: $bp-tablet-f) {
+            width: 116%;
+        }
+        @media screen and (max-width: $bp-tablet-g) {
+            width: 120%;
+        }
+        @media screen and (max-width: $bp-tablet-gp) {
+            width: 122%;
+        }
+        @media screen and (max-width: $bp-tablet-gr) {
+            width: 128%;
+        }
+        @media screen and (max-width: $bp-tablet-gs) {
+            width: 136%;
+        }
+        @media screen and (max-width: $bp-tablet-gw) {
+            width: 145%;
+        }
+        
+        
+   
+
+    &__inner{
+        display: flex;
+        flex-direction: row;
+        gap: 130px;
+
+        @media screen and (max-width: $bp-tablet-bg) {
+            gap: 110px;
+        }
+
+        @media screen and (max-width: $bp-tablet-vv) {
+            gap: 80px;
+        }
+        @media screen and (max-width: $bp-tablet-c) {
+            gap: 56px;
+        }
+        @media screen and (max-width: $bp-tablet-t) {
+            gap: 28px;
+        }
+        @media screen and (max-width: $bp-tablet-k) {
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          margin: 11px 213px -17px 218px;
+        }
+    }
+
+
+
+   &__contact{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   }
+
+   &__cont{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: $fonts-roboto-regular;
+    font-size: 16px;
+    line-height: 100%;
+    font-weight: 400;
+    color: $black;
+
+    @media screen and (max-width: $bp-tablet-sm) {
+        font-size: 15px;
+        gap: 18px;
+    }
+    @media screen and (max-width: $bp-tablet-t) {
+        font-size: 13px;
+        
+    }
+    @media screen and (max-width: $bp-tablet-k) {
+        font-size: 16px;
+        gap: 22px;
+        
+    }
+   }
+
+   &__social{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 30px;
+
+    @media screen and (max-width: $bp-tablet-vv) {
+        gap: 4px;
+    }
+    @media screen and (max-width: $bp-tablet-sm) {
+       width: 85%;
+       margin-top: 26px;
+    }
+    @media screen and (max-width: $bp-tablet-t) {
+        width: 80%;
+       
+    }
+    @media screen and (max-width: $bp-tablet-k) {
+        width: 100%;
+
+       
+    }
+    
+   }
+   &__groups{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    @media screen and (max-width: $bp-tablet-sm) {
+        gap: 10px;
+    }
+    @media screen and (max-width: $bp-tablet-t) {
+        gap: 7px;
+    }
+    @media screen and (max-width: $bp-tablet-k) {
+        gap: 16px;
+    }
+   }
+
+   &__groups--menu{
+    font-family: $fonts-roboto-regular;
+    font-size: 16px;
+    line-height: 100%;
+    font-weight: 400;
+    color: $black;
+
+    @media screen and (max-width: $bp-tablet-sm) {
+        font-size: 12px;
+    }
+    @media screen and (max-width: $bp-tablet-t) {
+        font-size: 10px;
+    }
+    @media screen and (max-width: $bp-tablet-k) {
+        font-size: 16px;
+    }
+   }
+
+   &__groups--title{
+    font-family: $fonts-roboto-medium;
+    font-size: 20px;
+    line-height: 100%;
+    font-weight: 500;
+    color: $black;
+    gap: 15px;
+    @media screen and (max-width: $bp-tablet-sm) {
+        font-size: 18px;
+    }
+    @media screen and (max-width: $bp-tablet-t) {
+        font-size: 16px;
+    }
+    @media screen and (max-width: $bp-tablet-k) {
+        font-size: 20px;
+    }
+
+   }
+
+   &__end{
+    display: flex;
+    flex-direction: row;
+    font-family: $fonts-roboto-regular;
+    font-size: 14px;
+    line-height: 100%;
+    font-weight: 400;
+    color: $black;
+    gap: 14px;
+    padding: 29px 0px 20px 480px;
+
+    @media screen and (max-width: $bp-tablet-s) {
+        padding: 29px 0px 20px 346px;
+ 
+    }
+    @media screen and (max-width: $bp-tablet-t) {
+        padding: 29px 0px 20px 205px;
+ 
+    }
+    
+   }
+
+
+
+
+}
